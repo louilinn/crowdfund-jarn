@@ -1,14 +1,15 @@
 :root {
   --white: #ffffff;
   --black: #000;
-  --col1: #6aa02b;
-  --col2: #496e1e;
-  --col3: #a0442b;
-  --col4: #6f2f1e;
-  --col5: #f4ddd6; /*#de9986;*/
-  --col0: #E6E6E6;
-  --brown: #6f2f1e;
-  --brownlight: #a0442b;
+  --col1: #C757A1;
+  --col2: #7a00df;
+  --col3: #3f8565;
+  --col4: #0083bc;
+  --col5: #baa6b1; /*#de9986;*/
+  --col0: #ddd7c6;
+  --main: #005336;
+  --secondary: #3f8565;
+  --text: #202020;
 }
 
 @font-face {
@@ -41,28 +42,28 @@ main {
 .about {
   font-size: 12px;
   text-align: center;
-  color: var(--brown);
+  color: var(--main);
 }
 a {
-  color: var(--brownlight);
+  color: var(--secondary);
   text-decoration: none;
 }
 .link {
-  border-bottom: 1px solid var(--brownlight);
+  border-bottom: 1px solid var(--secondary);
 }
 .link:hover {
-  color: var(--brown);
-  border-bottom: 1px solid var(--brown);
+  color: var(--main);
+  border-bottom: 1px solid var(--main);
 }
 h1{
   margin: 0px;
-  color: var(--brown);
+  color: var(--main);
   font-family: AvenirBlack;
   font-size: 36px;
   line-height: 1em;
 }
 h2 {
-  color: var(--brown);
+  color: var(--main);
   font-family: AvenirBlack;
   font-size: 20px;
   padding-top: 10px;
@@ -70,7 +71,7 @@ h2 {
   text-align: left;
 }
 h3{
-  color: var(--brown);
+  color: var(--main);
   font-family: AvenirBlack;
   font-size: 20px;
   margin: 0px;
