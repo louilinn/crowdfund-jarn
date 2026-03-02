@@ -10,6 +10,7 @@
   --main: #005336;
   --secondary: #3f8565;
   --text: #202020;
+  --background: #e4eae1;
 }
 
 @font-face {
@@ -19,7 +20,7 @@
 }
 body {
   text-align: center;
-  background-color: var(--white);
+  background-color: var(--background);
   background-image: url("../assets/sagen-bright.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -155,7 +156,7 @@ figure {
 .block {
   display: block;
   height: 100px;
-  color: var(--white);
+  color: var(--background);
   font-size: .75em;
   float: left;
   background-color: var(--col0);
