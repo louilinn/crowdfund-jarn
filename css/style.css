@@ -215,6 +215,7 @@ figure {
   height: 80px;
   color: var(--background);
   font-size: 12px;
+  font-weight: 400;
   float: left;
   background-color: var(--col0);
   position: relative;
