@@ -273,7 +273,7 @@ figure {
   color: var(--text);
   display: inline-block;
   line-height: 1em;
-  font-size: 10px;
+  font-size: 12px;
 }
 .legend li:before {
   content: "";
@@ -340,7 +340,13 @@ figure {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  p {
+  p, li {
     font-size: 12px;
+  }
+  .legend li {
+    font-size: 10px;
+  }
+  .image-desc{
+    font-size: 10px;
   }
 }
